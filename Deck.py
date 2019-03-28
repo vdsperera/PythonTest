@@ -11,3 +11,10 @@ class Deck:
         for card in self.cards:
             print(card);
 
+    def __string__(self):
+        s = "";
+        for i in range(len(self.cards)):
+            s += " " * i + str(self.cards[i]) + "\n";
+        return s;
+        
+
