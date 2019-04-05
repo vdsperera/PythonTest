@@ -27,9 +27,9 @@ class Deck:
     def remove(self, card):
         if card in self.cards:
             self.cards.remove(card);
-            return true;
+            return True;
         else:
-            return false;
+            return False;
 
     def pop(self):
         return self.cards.pop();
