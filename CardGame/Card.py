@@ -9,7 +9,7 @@ class Card:
     def __str__(self):
         """
           >>> print(Card(2, 11))
-          Queen of Hearts
+          Jack of Hearts
         """        
         return '{0} of {1}'.format(Card.RANKS[self.rank], Card.SUITS[self.suit]);
 
